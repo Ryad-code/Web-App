@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../img/logo192.png";
 
 import { ProjectPageStyle } from "../../styles/ProjectPageStyle/ProjectPage.style.ts";
 import MainBox from "./Boxes/MainBox.tsx";

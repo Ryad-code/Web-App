@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const NavBarStyle = styled.div`
   width: 100%;
-  height: 10vh;
+  height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;

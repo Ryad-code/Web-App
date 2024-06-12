@@ -11,7 +11,7 @@ function Presentation() {
         create intuitive interfaces for user through a Logic & Organized based
         code.
       </p>
-      <button>Learn more about me</button>
+      <button>Let's begin</button>
     </PresentationStyle>
   );
 }

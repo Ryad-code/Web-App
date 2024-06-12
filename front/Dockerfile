@@ -4,4 +4,4 @@ WORKDIR /app
 
 EXPOSE  3000
 
-CMD     ["/bin/bash", "-c", "npm install && npm start"]
+ENTRYPOINT     ["/bin/bash", "-c", "npm install && npm start"]

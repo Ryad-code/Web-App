@@ -2,54 +2,58 @@ import styled from "styled-components";
 
 export const ProjectPageStyle = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: yellow;
+  background-color: pink;
   color: white;
+`;
+export const SubProjectPageStyle = styled.h1`
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 `;
 
-export const MainBoxStyle = styled.div`
-  width: 100%;
-  height: 10vh;
+export const TitleStyle = styled.div`
+  color: white;
+  width: 80%;
+  font-size: 32px;
+  font-weight: medium;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: blue;
-  color: white;
+  justify-content: left;
 `;
-export const Project1Style = styled.div`
+
+export const ProjectRowStyle = styled.div`
   width: 100%;
-  height: 30vh;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+`;
+
+export const Project1Style = styled.div`
+  width: 35%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: purple;
   color: white;
-  margin: 20px;
+  margin: 5%;
+  border-radius: 10px;
+  border: 2px solid white;
 `;
-export const Project2Style = styled.div`
-  width: 100%;
-  height: 30vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: pink;
-  color: white;
-  margin: 20px;
+export const ProjectTextStyle = styled.div`
+  font-size: 15px;
 `;
-export const Project3Style = styled.div`
-  width: 100%;
-  height: 30vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: red;
-  color: white;
-  margin: 20px;
+
+export const ProjectTitle = styled.div`
+  font-size: 25px;
+  padding: 3%;
 `;

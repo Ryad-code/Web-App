@@ -1,17 +1,26 @@
 import React from "react";
-import { PresentationStyle } from "../../styles/FrontPageStyle/FrontPage.style.ts";
+import {
+  Button,
+  NameStyle,
+  PresentationStyle,
+  WelcomeStyle,
+} from "../../styles/FrontPageStyle/FrontPage.style.ts";
 
 function Presentation() {
   return (
     <PresentationStyle>
-      <h1>Welcome</h1>
-      <h2>I'm Ryad Laouedj</h2>
+      <WelcomeStyle>
+        <h1>Welcome</h1>
+      </WelcomeStyle>
+      <NameStyle>
+        <h2>I'm Ryad Laouedj</h2>
+      </NameStyle>
       <p>
         Creative developer & student at 42 Paris. Between Design & Code I try to
         create intuitive interfaces for user through a Logic & Organized based
         code.
       </p>
-      <button>Let's begin</button>
+      <Button>Lets Start</Button>
     </PresentationStyle>
   );
 }

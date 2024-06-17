@@ -6,7 +6,7 @@ export const AboutStyle = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: green;
+  background-color: pink;
   color: white;
 `;
 
@@ -15,7 +15,6 @@ export const SubAboutStyle = styled.h1`
   height: 100%;
   display: flex;
   flex-direction: row;
-  background-color: orange;
   color: white;
 `;
 
@@ -25,16 +24,14 @@ export const AboutTextStyle = styled.h3`
   display: flex;
   flex-direction: column;
   align-items: start;
-  background-color: red;
   color: white;
 `;
 
 export const AboutParagStyle = styled.a`
   color: white;
   font-size: 32px;
-  font-weight: thin;
+  font-weight: lighter;
   margin-top: 0%;
-
 `;
 
 export const ProfilePicStyle = styled.h3`
@@ -44,7 +41,6 @@ export const ProfilePicStyle = styled.h3`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: purple;
+  margin-top: 10%;
   color: white;
-
 `;

@@ -7,7 +7,7 @@ export const NavBarStyle = styled.div`
   flex-direction: row;
   justify-content: center;
   color: white;
-  background-color: blueviolet;
+  background-color: #bf4f74;
 `;
 
 export const SubBarStyle = styled.div`

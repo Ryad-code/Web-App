@@ -8,20 +8,6 @@ export const FrontPageStyle = styled.div`
   align-items: center;
   background-color: pink;
 
-  h1 {
-    color: white;
-    font-size: 68px;
-    font-weight: bold;
-    padding-top: 5%;
-    padding-bottom: 3%;
-  }
-
-  h2 {
-    color: white;
-    font-size: 42px;
-    font-weight: medium;
-  }
-
   p {
     color: white;
     font-size: 32px;
@@ -29,19 +15,33 @@ export const FrontPageStyle = styled.div`
     max-width: 60%;
     margin-top: 0%;
   }
+`;
 
-  button {
-    background-color: blueviolet;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
+export const Button = styled.button`
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid white;
+  color: white;
+  margin: 2%;
+  padding: 15px 32px;
+  width: 200px;
+  height: 60px;
+  &:hover {
+    background-color: #bf4f74;
   }
+`;
+
+export const NameStyle = styled.div`
+  color: white;
+  font-size: 32px;
+  font-weight: medium;
+`;
+
+export const WelcomeStyle = styled.div`
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  padding-top: 5%;
 `;
 
 export const PresentationStyle = styled.div`
@@ -55,5 +55,4 @@ export const SubFrontStyle = styled.div`
   width: 80%;
   display: flex;
   flex-direction: column;
-  background-color: pink;
 `;
